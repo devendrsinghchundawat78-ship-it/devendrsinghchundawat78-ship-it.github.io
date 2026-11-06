@@ -41,6 +41,16 @@
   .links { display:flex; gap:12px; justify-content:center; margin-top:26px; flex-wrap:wrap; }
   .links a { color:#0e0e10; background:#e8e8ea; text-decoration:none; font-size:14px; font-weight:600; padding:10px 18px; border-radius:999px; }
   .links a.ghost { background:transparent; color:#e8e8ea; border:1px solid #3a3a40; }
+  .projects { margin-top:32px; text-align:left; }
+  .projects > h2 { font-size:13px; font-weight:600; text-transform:uppercase; letter-spacing:1.6px; color:#9a9aa2; text-align:center; margin-bottom:16px; }
+  .project { background:#1c1c20; border:1px solid #2a2a2e; border-radius:16px; padding:20px 22px; }
+  .project + .project { margin-top:14px; }
+  .project h3 { font-size:17px; letter-spacing:.2px; }
+  .project .tag { color:#9a9aa2; font-size:13px; margin-top:4px; }
+  .project .desc { color:#c5c5cb; font-size:14px; line-height:1.6; margin-top:10px; }
+  .plinks { display:flex; gap:10px; margin-top:14px; flex-wrap:wrap; }
+  .plinks a { color:#0e0e10; background:#e8e8ea; text-decoration:none; font-size:13px; font-weight:600; padding:8px 15px; border-radius:999px; }
+  .plinks a.ghost { background:transparent; color:#e8e8ea; border:1px solid #3a3a40; }
   footer { margin-top:26px; color:#6d6d75; font-size:12.5px; }
 </style>
 </head>
@@ -55,6 +65,26 @@
       <a class="ghost" href="https://www.youtube.com/@bytekavach">ByteKavach</a>
       <a class="ghost" href="https://www.instagram.com/aaush.design/">Instagram</a>
     </div>
+    <section class="projects">
+      <h2>Projects</h2>
+      <article class="project">
+        <h3>NETMAX</h3>
+        <p class="tag">Android streaming app &middot; movies, series and anime</p>
+        <p class="desc">Discover trending titles, search and watch in the app, and keep a personal watchlist. Forked and extended from the open-source Nuvio app (GPLv3). Free direct APK, published through GitHub releases.</p>
+        <div class="plinks">
+          <a href="https://netmax-app.pages.dev/">Website</a>
+          <a class="ghost" href="https://github.com/devraj-99/netmax-v3">Source code</a>
+        </div>
+      </article>
+      <article class="project">
+        <h3>Mimo</h3>
+        <p class="tag">Android save-and-organize app</p>
+        <p class="desc">Save photos, links, notes and places into collections, with AI-assisted organization and optional Google Drive storage for your media. In development, with a free test build available.</p>
+        <div class="plinks">
+          <a href="https://mimo.runs-on.dev/">Website</a>
+        </div>
+      </article>
+    </section>
     <footer>devendrsinghchundawat78-ship-it.github.io</footer>
   </main>
 </body>
